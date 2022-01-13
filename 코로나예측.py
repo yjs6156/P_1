@@ -70,7 +70,7 @@ trainPredictPlot[:,:] = np.nan
 trainPredictPlot[look_back:len(TrainPredict)+look_back,:]=TrainPredict
 testPredictPlot=np.empty_like(dataset)
 testPredictPlot[:,:] =np.nan
-testPredictPlot[len(TrainPredict)+(look_back+1)*2:len(dataset), :]=TestPredict
+testPredictPlot[len(TrainPredict)+(look_back+1)*2:len(dataset) , :]=TestPredict
 plt.plot(dataset)
 plt.plot(trainPredictPlot)
 plt.plot(testPredictPlot)
