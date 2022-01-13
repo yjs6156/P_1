@@ -58,3 +58,4 @@ for i in range(9):
     plt.title("Predicted {},Class {}".format(predicted_classes[correct],y_test[correct]))
     plt.tight_layout()
     plt.show()
+    
