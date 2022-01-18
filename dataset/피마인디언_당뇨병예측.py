@@ -19,3 +19,4 @@ model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])
 
 model.fit(X,Y,epochs=200,batch_size=10)
 print("\n Accuarcy: %.4f" %(model.evaluate(X,Y)[1]))
+
