@@ -15,7 +15,7 @@ tf.random.set_seed(3)
 df=pd.read_csv('C:/Users/yjs61/Desktop/python/dataset/iris.csv',
 names = ["sepal_length","sepal_width","petal_length","petal_width","species"])
 
-sns.pairplot(df,hue='species');
+sns.pairplot(df,hue='species')
 plt.show()
 
 dataset=df.values
